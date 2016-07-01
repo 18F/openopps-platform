@@ -1,7 +1,8 @@
 ---
-name: Open Opportunities (Midas)
+name: Open Opportunities
 uniqueID: OCSIT-20140904-20150721-03
-version: 0.7.4
+version: 0.7.4 ## This `authority-to-operate` branch was rebased to include latest code from `0.10.4`. 
+## Will talk with Jez about merging this with the Master branch
 phase: beta
 information-types:
 - D26 Civilian Operations
@@ -37,18 +38,18 @@ staff:
         unit: 18F
         email: devops@gsa.gov
     technical-lead:
-        name: Sarah Allen
+        name: Sarah Allen ## Joseph Castle with GSA IT? Verify with Micah or Jez.
         title: Engineer
         org: General Services Administration
         unit: 18F
-        email: sarah.allen@gsa.gov
+        email: sarah.allen@gsa.gov ## tbd
 leveraged-authorizations: 
 - https://www.fedramp.gov/marketplace/compliant-systems/amazon-web-services-aws-eastwest-us-public-cloud/
-purpose: https://github.com/18F/openFEC/blob/develop/README.md
+purpose: https://github.com/18F/openopps-platform/blob/dev/README.md 
 components: 
-- https://github.com/18F/midas/blob/devel/package.json
-diagram: https://docs.google.com/document/d/1X8mbuJ79A6PqZ06gB1xE-SR0MkL-QC4TRfu1gQDxGI4/edit
-network-architecture: https://docs.google.com/document/d/1X8mbuJ79A6PqZ06gB1xE-SR0MkL-QC4TRfu1gQDxGI4/edit
+- https://github.com/openopps/openopps-platform/blob/dev/package.json
+diagram: https://docs.google.com/document/d/1X8mbuJ79A6PqZ06gB1xE-SR0MkL-QC4TRfu1gQDxGI4/edit ## Roger to verify with Diego
+network-architecture: https://docs.google.com/document/d/1X8mbuJ79A6PqZ06gB1xE-SR0MkL-QC4TRfu1gQDxGI4/edit ## Roger to verify with Diego
 environments:
 - Cloud Foundry
 - Amazon Web Services East / West
