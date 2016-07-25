@@ -1,9 +1,8 @@
 ---
 name: Open Opportunities
 uniqueID: OCSIT-20140904-20150721-03
-version: 0.7.4 ## This `authority-to-operate` branch was rebased to include latest code from `0.10.4`. 
-## Will talk with Jez about merging this with the Master branch
-phase: beta
+version: 0.11.0
+phase: live
 information-types:
 - D26 Civilian Operations
 confidentiality: none
@@ -38,18 +37,22 @@ staff:
         unit: 18F
         email: devops@gsa.gov
     technical-lead:
-        name: Sarah Allen ## Joseph Castle with GSA IT? Verify with Micah or Jez.
+        name: Roger Steve Ruiz
         title: Engineer
         org: General Services Administration
         unit: 18F
-        email: sarah.allen@gsa.gov ## tbd
-leveraged-authorizations: 
+        email: roger.ruiz@gsa.gov
+leveraged-authorizations:
 - https://www.fedramp.gov/marketplace/compliant-systems/amazon-web-services-aws-eastwest-us-public-cloud/
-purpose: https://github.com/18F/openopps-platform/blob/dev/README.md 
-components: 
+- https://www.fedramp.gov/marketplace/fedramp-ready-systems/18f-cloud-gov/
+purpose: https://github.com/18F/openopps-platform/blob/dev/README.md
+components:
 - https://github.com/openopps/openopps-platform/blob/dev/package.json
-diagram: https://docs.google.com/document/d/1X8mbuJ79A6PqZ06gB1xE-SR0MkL-QC4TRfu1gQDxGI4/edit ## Roger to verify with Diego
-network-architecture: https://docs.google.com/document/d/1X8mbuJ79A6PqZ06gB1xE-SR0MkL-QC4TRfu1gQDxGI4/edit ## Roger to verify with Diego
+- https://github.com/18F/openopps-platform
+- https://18f.gsa.gov/project/openopps
+- https://18f.gsa.gov/tags/midas
+diagram: https://docs.google.com/a/gsa.gov/drawings/d/1nopY4jU9cVBoEL10VbASkpu4Fc0BSKXIaKMMAcPJCz4/edit?usp=sharing
+network-architecture: https://docs.google.com/a/gsa.gov/drawings/d/1nopY4jU9cVBoEL10VbASkpu4Fc0BSKXIaKMMAcPJCz4/edit?usp=sharing
 environments:
 - Cloud Foundry
 - Amazon Web Services East / West
@@ -58,5 +61,5 @@ user-types:
         functions: 
         - deployment
         - engineering
-controls: [url to final CF controls]
+controls: https://compliance.cloud.gov/
 ---
