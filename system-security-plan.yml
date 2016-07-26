@@ -44,7 +44,6 @@ staff:
         email: roger.ruiz@gsa.gov
 leveraged-authorizations:
 - https://www.fedramp.gov/marketplace/compliant-systems/amazon-web-services-aws-eastwest-us-public-cloud/
-- https://www.fedramp.gov/marketplace/fedramp-ready-systems/18f-cloud-gov/
 purpose: https://github.com/18F/openopps-platform/blob/dev/README.md
 components:
 - https://github.com/openopps/openopps-platform/blob/dev/package.json
