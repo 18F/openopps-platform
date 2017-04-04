@@ -134,7 +134,7 @@
   "bugs": "https://github.com/18F/openopps-platform/issues",
   "license": "CC0-1.0",
   "engines": {
-    "node": "4.4.7",
+    "node": "6.10.x",
     "npm": "3.8.9"
   }
 }
